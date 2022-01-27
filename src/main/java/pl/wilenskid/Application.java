@@ -33,7 +33,7 @@ public class Application {
                 .builder()
                 .successionType(SuccessionType.RANDOM_OF_ERA)
                 .selectionType(SelectionType.TOURNAMENT_METHOD)
-                .crossingType(CrossingType.TWO_SPOT)
+                .crossingType(CrossingType.MULTIPLY_SPOT)
                 .inversionProbability(0.8)
                 .mutationProbability(0.8)
                 .crossingProbability(0.8)

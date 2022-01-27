@@ -14,4 +14,8 @@
     <Tab text="Configuration" closable="false">
         <fx:include fx:id="configurationTab" source="configuration-tab.fxml"/>
     </Tab>
+
+    <Tab text="Details" closable="false">
+        <fx:include fx:id="detailsTab" source="details-tab.fxml"/>
+    </Tab>
 </TabPane>
